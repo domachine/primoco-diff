@@ -1,48 +1,22 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		
-		<link href="./_app/immutable/assets/2.Cr7Gu6RL.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.CgzUEAEa.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.DYi9Nk8o.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.7ntMAnZ-.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.DKIH8vp3.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.CvpN7J5t.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.dOQGngit.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.ywEigqDC.js">
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">  <main class="svelte-zmodlq"><h1 class="col-1 col-span-2" data-svelte-h="svelte-1x49dn1">Kontoauszüge vergleichen</h1> <h2 class="col-1 column-title" data-svelte-h="svelte-1oauae7">Bank Auszug</h2> <div class="col-1"><label><input id="bankFileInput" form="compareForm" type="file" required></label></div> <div class="col-1 col-span-2"><button id="resetButton" class="a-btn a-btn--primary svelte-zmodlq" type="button" data-svelte-h="svelte-1y54110">Zurücksetzen</button> <button id="compareButton" class="a-btn a-btn--primary svelte-zmodlq" type="button" data-svelte-h="svelte-euzwns">Vergleichen</button></div> <div class="col-1"> <table id="bankTable"><thead data-svelte-h="svelte-fm9z7x"><tr><th style="text-align: right">Wert</th> <th>Kategorie</th> <th>Beschreibung</th></tr></thead> <tbody></tbody></table></div> <h2 class="col-2 column-title" data-svelte-h="svelte-7tsozd">Primoco Auszug</h2> <div class="col-2"><label><input id="primocoFileInput" form="compareForm" type="file" required></label></div> <div class="col-2"> <table id="primocoTable"><thead data-svelte-h="svelte-fm9z7x"><tr><th style="text-align: right">Wert</th> <th>Kategorie</th> <th>Beschreibung</th></tr></thead> <tbody></tbody></table></div> <footer class="col-1 col-span-2">Copyright
-		<a href="https://dominik.burgdoerfer.com" data-svelte-h="svelte-1tk0ozu">Dominik Burgdörfer</a>
-		© 2024</footer> </main> 
-			
-			<script>
-				{
-					__sveltekit_18hsl1b = {
-						base: new URL(".", location).pathname.slice(0, -1),
-						assets: "/primoco-diff"
-					};
 
-					const element = document.currentScript.parentElement;
-
-					const data = [null,null];
-
-					Promise.all([
-						import("./_app/immutable/entry/start.CgzUEAEa.js"),
-						import("./_app/immutable/entry/app.DKIH8vp3.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-	</body>
-</html>
+    
+    <!doctype html>
+    <html>
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="manifest" href="/assets/app-jP96mNDA.webmanifest" />
+        
+        <link rel="stylesheet" href="/assets/styles-DkUnb-cN.css" />
+        <script type="module" src="/assets/client-Bum3oteA.js"></script>
+      
+      </head>
+      <body>
+        
+        <!-- Diff Page -->
+        <diff-page></diff-page>
+      
+      </body>
+    </html>
+  
+  

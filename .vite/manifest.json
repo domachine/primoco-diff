@@ -1,0 +1,17 @@
+{
+  "app.webmanifest": {
+    "file": "assets/app-jP96mNDA.webmanifest",
+    "src": "app.webmanifest"
+  },
+  "home/client.js": {
+    "file": "assets/client-Bum3oteA.js",
+    "name": "client",
+    "src": "home/client.js",
+    "isEntry": true
+  },
+  "home/styles.css": {
+    "file": "assets/styles-DkUnb-cN.css",
+    "src": "home/styles.css",
+    "isEntry": true
+  }
+}
