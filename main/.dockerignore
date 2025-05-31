@@ -1,0 +1,13 @@
+*
+
+!package.json
+!package-lock.json
+!src
+src/*/plugins
+src/plugins
+!server.js
+!build.js
+!viteExpress.config.js
+!vendor
+!config/custom-environment-variables.json
+!config/production.json

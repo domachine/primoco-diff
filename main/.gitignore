@@ -1,0 +1,10 @@
+/node_modules
+/build
+/public
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/config/local*
+/database/*
+!/database/.keep
+.vite

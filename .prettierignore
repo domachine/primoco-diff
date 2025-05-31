@@ -1,0 +1,12 @@
+playwright-report
+build
+public
+*.sql
+*.png
+*.ico
+.gitignore
+.dockerignore
+Dockerfile
+.prettierignore
+test-results
+package-lock.json

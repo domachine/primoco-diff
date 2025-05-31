@@ -1,0 +1,7 @@
+*
+
+!*.json
+!*.js
+!package-json.lock
+!lib/*
+!config/default.*
